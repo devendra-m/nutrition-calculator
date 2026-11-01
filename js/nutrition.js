@@ -117,7 +117,7 @@ const Foodname = (function(){
 			Loader.load(1);			
 			
 			const jsonparts = {};
-			const range = 500;
+			const range = 200;
 			
 			try {
 				var foodIds = Main.queryAll(document,'.food_id');		
