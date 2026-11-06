@@ -172,9 +172,24 @@ const Foodname = (function(){
 			const nutritionMain = Main.query(document,'.'+main);
 			nutritionMain.remove();
 		},		
-		
+		validate(){
+			const inputs = Main.queryAll(document,'.content form .name,.content form .weightGram');
+			
+			for(const input of inputs){
+				if(input.closest('ul').className != 'template'){
+					if(input.value.length < 1){
+						Tooltip.show(input);
+						return false;
+					}
+				}
+			}
+			
+			return true;
+		},
 		async submit(e){		
-			e.preventDefault();
+			
+			if(!this.validate())
+				return false;
 										
 			Loader.load(1);			
 			
