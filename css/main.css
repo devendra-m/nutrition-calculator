@@ -53,6 +53,9 @@ body{margin:0px;font-family:Arial, Helvetica, sans-serif}
 	input{height:20px}	
 	.food_main .title{border-bottom:1px solid #ddd;padding-bottom:30px} 	
 	.link .back{padding-bottom:50px;cursor:pointer}
+	.intext:before{content:"";position:absolute;width:20px;height:17px;left:15px;bottom:-19px;border-left:1px solid #000;transform:rotate(-25deg)}
+	.intext:after{content:"";position:absolute;width:20px;height:17px;left:22px;bottom:-27px;border-left:1px solid #000;transform:rotate(25deg)}
+	
 	
 @media only screen and (min-width: 200px) and (max-width: 767px) {
 	.name_container .name{

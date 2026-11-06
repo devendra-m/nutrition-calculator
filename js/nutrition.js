@@ -1,5 +1,65 @@
 window.promiseCache = null;
 window.lastKeyTime = 0;
+const Tooltip=(function(){
+	return {	
+		
+			delay(x, y, l){				
+				const step = 10;
+				if(((l - step) < y ) && ( y < (l + step)))
+					return false;
+				
+				if(y > l)
+					y = y - step;
+				else
+					y = y + step;
+					
+				window.scrollTo(x, y);
+				setTimeout(Tooltip.delay, 10, x, y, l)
+			},
+				
+		    show(elem){
+				
+					const text = Main.newElem('span',{'class':'tooltip'});
+					const intext = Main.newElem('span',{'class':'intext'});
+					
+					const color = elem.style.border;
+					elem.style.border = '1px solid #ffa500';
+										
+					text.style.position = 'absolute';
+					text.style.background = '#fff';
+					text.style.border = '1px solid';
+					text.style.width = 'auto';
+					text.style.height = 'auto';
+					text.style.padding = '5px';	
+					text.style.borderRadius = '5px';	
+					
+					intext.style.position = 'relative';
+					intext.style.zIndex = '100';
+								
+					intext.innerHTML = 'This is required field.';					
+								
+					const left = elem.offsetParent.offsetLeft + elem.offsetLeft;
+					const top = elem.offsetParent.offsetTop + elem.offsetTop - elem.offsetHeight - 30 ;
+										
+					text.style.left = left + 'px';
+					text.style.top = top + 'px';	
+										
+					const y = window.scrollY;					
+					
+					Tooltip.delay(0,y,top);									
+					
+					Main.subElem(document.body,[{'e':text}]);		
+					Main.subElem(text,[{'e':intext}]);		
+					
+					setTimeout(Tooltip.hide,2000,text,elem,color);					
+			},		
+			
+			hide(text,elem,color){
+				text.remove();
+				elem.style.border = color;
+			}
+	}	
+})();
 const Foodname = (function(){
 	const foodUrl = '/data/Food_Name.json';
 	return {
