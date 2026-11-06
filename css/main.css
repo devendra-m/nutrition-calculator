@@ -54,8 +54,8 @@ body{margin:0px;font-family:Arial, Helvetica, sans-serif}
 	.food_main .title{border-bottom:1px solid #ddd;padding-bottom:30px} 	
 	.link .back{padding-bottom:50px;cursor:pointer}
 	.tooltip:before{content:"";position:absolute;clip-path:polygon(50% 0%, 75% 50%, 50% 100%, 25% 50%);width:30px;height:30px;left:10px;bottom:-15px;background:#fff;z-index:1}
-	.intext:before{content:"";position:absolute;width:20px;height:17px;left:15px;bottom:-19px;border-left:1px solid #000;transform:rotate(-25deg)}
-	.intext:after{content:"";position:absolute;width:20px;height:17px;left:22px;bottom:-27px;border-left:1px solid #000;transform:rotate(25deg)}
+	.intext:before{content:"";position:absolute;width:1px;height:17px;left:15px;bottom:-23px;border-right:1px solid #000;transform:rotate(-25deg)}
+	.intext:after{content:"";position:absolute;width:1px;height:17px;left:23px;bottom:-23px;border-left:1px solid #000;transform:rotate(25deg)}
 	
 	
 @media only screen and (min-width: 200px) and (max-width: 767px) {
