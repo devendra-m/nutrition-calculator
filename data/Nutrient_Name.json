@@ -1,0 +1,1559 @@
+[
+  {
+    "Nutrient_Code": 203,
+    "Nutrient_Symbol": "PROT",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Protein",
+    "Nutrient_Name_FR": "Protéines",
+    "Tagname": "PROCNT",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 204,
+    "Nutrient_Symbol": "FAT",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fat (total lipids)",
+    "Nutrient_Name_FR": "Lipides totaux",
+    "Tagname": "FAT",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 205,
+    "Nutrient_Symbol": "CARB",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Carbohydrate, total (by difference)",
+    "Nutrient_Name_FR": "Glucides totaux (par différence)",
+    "Tagname": "CHOCDF",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 207,
+    "Nutrient_Symbol": "ASH",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Ash, total",
+    "Nutrient_Name_FR": "Cendres, totales",
+    "Tagname": "ASH",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 208,
+    "Nutrient_Symbol": "KCAL",
+    "Nutrient_Unit": "kilocalorie",
+    "Nutrient_Name_EN": "Energy (kilocalories)",
+    "Nutrient_Name_FR": "Énergie (kilocalories)",
+    "Tagname": "ENERC_KCAL",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 210,
+    "Nutrient_Symbol": "SUCR",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Sucrose",
+    "Nutrient_Name_FR": "Sucrose",
+    "Tagname": "SUCS",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 211,
+    "Nutrient_Symbol": "GLUC",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Glucose",
+    "Nutrient_Name_FR": "Glucose",
+    "Tagname": "GLUS",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 212,
+    "Nutrient_Symbol": "FRUC",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fructose",
+    "Nutrient_Name_FR": "Fructose",
+    "Tagname": "FRUS",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 213,
+    "Nutrient_Symbol": "LACT",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Lactose",
+    "Nutrient_Name_FR": "Lactose",
+    "Tagname": "LACS",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 214,
+    "Nutrient_Symbol": "MALT",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Maltose",
+    "Nutrient_Name_FR": "Maltose",
+    "Tagname": "MALS",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 221,
+    "Nutrient_Symbol": "ALCO",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Alcohol",
+    "Nutrient_Name_FR": "Alcool",
+    "Tagname": "ALC",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 255,
+    "Nutrient_Symbol": "H2O",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Moisture",
+    "Nutrient_Name_FR": "Eau",
+    "Tagname": "WATER",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 260,
+    "Nutrient_Symbol": "MANN",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Mannitol",
+    "Nutrient_Name_FR": "Mannitol",
+    "Tagname": "MANTL",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 261,
+    "Nutrient_Symbol": "SORB",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Sorbitol",
+    "Nutrient_Name_FR": "Sorbitol",
+    "Tagname": "SORTL",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 262,
+    "Nutrient_Symbol": "CAFF",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Caffeine",
+    "Nutrient_Name_FR": "Caféine",
+    "Tagname": "CAFFN",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 263,
+    "Nutrient_Symbol": "THBR",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Theobromine",
+    "Nutrient_Name_FR": "Théobromine",
+    "Tagname": "THEBRN",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 268,
+    "Nutrient_Symbol": "KJ",
+    "Nutrient_Unit": "kilojoule",
+    "Nutrient_Name_EN": "Energy (kilojoules)",
+    "Nutrient_Name_FR": "Énergie (kilojoules)",
+    "Tagname": "ENERC_KJ",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 269,
+    "Nutrient_Symbol": "TSUG",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Sugars, total",
+    "Nutrient_Name_FR": "Sucres totaux",
+    "Tagname": "SUGAR",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 287,
+    "Nutrient_Symbol": "GAL",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Galactose",
+    "Nutrient_Name_FR": "Galactose",
+    "Tagname": "GALS",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 291,
+    "Nutrient_Symbol": "TDF",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fibre, total dietary",
+    "Nutrient_Name_FR": "Fibres alimentaires totales",
+    "Tagname": "FIBTG",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 301,
+    "Nutrient_Symbol": "CA",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Calcium",
+    "Nutrient_Name_FR": "Calcium",
+    "Tagname": "CA",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 303,
+    "Nutrient_Symbol": "FE",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Iron",
+    "Nutrient_Name_FR": "Fer",
+    "Tagname": "FE",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 304,
+    "Nutrient_Symbol": "MG",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Magnesium",
+    "Nutrient_Name_FR": "Magnésium",
+    "Tagname": "MG",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 305,
+    "Nutrient_Symbol": "P",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Phosphorus",
+    "Nutrient_Name_FR": "Phosphore",
+    "Tagname": "P",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 306,
+    "Nutrient_Symbol": "K",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Potassium",
+    "Nutrient_Name_FR": "Potassium",
+    "Tagname": "K",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 307,
+    "Nutrient_Symbol": "NA",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Sodium",
+    "Nutrient_Name_FR": "Sodium",
+    "Tagname": "NA",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 309,
+    "Nutrient_Symbol": "ZN",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Zinc",
+    "Nutrient_Name_FR": "Zinc",
+    "Tagname": "ZN",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 312,
+    "Nutrient_Symbol": "CU",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Copper",
+    "Nutrient_Name_FR": "Cuivre",
+    "Tagname": "CU",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 315,
+    "Nutrient_Symbol": "MN",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Manganese",
+    "Nutrient_Name_FR": "Manganèse",
+    "Tagname": "MN",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 317,
+    "Nutrient_Symbol": "SE",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Selenium",
+    "Nutrient_Name_FR": "Sélénium",
+    "Tagname": "SE",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 319,
+    "Nutrient_Symbol": "RT-µg",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Retinol",
+    "Nutrient_Name_FR": "Rétinol",
+    "Tagname": "RETOL",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 320,
+    "Nutrient_Symbol": "RAE",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Retinol activity equivalents",
+    "Nutrient_Name_FR": "Équivalents d'activité du rétinol",
+    "Tagname": "VITA_RAE",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 321,
+    "Nutrient_Symbol": "BC-µg",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Beta carotene",
+    "Nutrient_Name_FR": "Bêta-carotène",
+    "Tagname": "CARTB",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 322,
+    "Nutrient_Symbol": "AC-µg",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Alpha carotene",
+    "Nutrient_Name_FR": "Alpha-carotène",
+    "Tagname": "CARTA",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 323,
+    "Nutrient_Symbol": "ATMG",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Alpha-tocopherol",
+    "Nutrient_Name_FR": "Alpha-tocophérol",
+    "Tagname": "TOCPHA",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 324,
+    "Nutrient_Symbol": "D3+D2-IU",
+    "Nutrient_Unit": "International Unit",
+    "Nutrient_Name_EN": "Vitamin D (International Units)",
+    "Nutrient_Name_FR": "Vitamine D (Unités Internationales)",
+    "Tagname": "VITD_IU",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 325,
+    "Nutrient_Symbol": "D2-µg",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Vitamin D2, ergocalciferol",
+    "Nutrient_Name_FR": "Vitamine D2, (ergocalciférol)",
+    "Tagname": "ERGCAL",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 326,
+    "Nutrient_Symbol": "D3-µg",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Vitamin D3, cholecalciferol",
+    "Nutrient_Name_FR": "Vitamine D3, (cholécalciférol)",
+    "Tagname": "CHOCAL",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 328,
+    "Nutrient_Symbol": "D3+D2-µg",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Vitamin D (D2 + D3)",
+    "Nutrient_Name_FR": "Vitamine D (D2 + D3)",
+    "Tagname": "VITD",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 329,
+    "Nutrient_Symbol": "25(OH)D3",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "25-hydroxycholecalciferol",
+    "Nutrient_Name_FR": "25-hydroxycholécalciférol",
+    "Tagname": "CHOCALOH",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 330,
+    "Nutrient_Symbol": "25(OH)D2",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "25-hydroxyergocalciferol",
+    "Nutrient_Name_FR": "25-hydroxyergocalciférol",
+    "Tagname": "ERGCALOH",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 334,
+    "Nutrient_Symbol": "CRYPX",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Beta cryptoxanthin",
+    "Nutrient_Name_FR": "Bêta-cryptozanthine",
+    "Tagname": "CRYPX",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 337,
+    "Nutrient_Symbol": "LYCPN",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Lycopene",
+    "Nutrient_Name_FR": "Lycopène",
+    "Tagname": "LYCPN",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 338,
+    "Nutrient_Symbol": "LUT+ZEA",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Lutein and zeaxanthin",
+    "Nutrient_Name_FR": "Lutéine et zéaxanthine",
+    "Tagname": "LUT+ZEA",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 341,
+    "Nutrient_Symbol": "BTMG",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Beta-tocopherol",
+    "Nutrient_Name_FR": "Bêta-tocophérol",
+    "Tagname": "TOCPHB",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 342,
+    "Nutrient_Symbol": "GTMG",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Gamma-tocopherol",
+    "Nutrient_Name_FR": "Gamma-tocophérol",
+    "Tagname": "TOCPHG",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 343,
+    "Nutrient_Symbol": "DTMG",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Delta-tocopherol",
+    "Nutrient_Name_FR": "Delta-tocophérol",
+    "Tagname": "TOCPHD",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 401,
+    "Nutrient_Symbol": "VITC",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Vitamin C",
+    "Nutrient_Name_FR": "Vitamine C",
+    "Tagname": "VITC",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 404,
+    "Nutrient_Symbol": "THIA",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Thiamine",
+    "Nutrient_Name_FR": "Thiamine",
+    "Tagname": "THIA",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 405,
+    "Nutrient_Symbol": "RIBO",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Riboflavin",
+    "Nutrient_Name_FR": "Riboflavine",
+    "Tagname": "RIBF",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 406,
+    "Nutrient_Symbol": "N-MG",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Niacin (nicotinic acid) preformed",
+    "Nutrient_Name_FR": "Niacine (acide nicotinique) préformée",
+    "Tagname": "NIA",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 409,
+    "Nutrient_Symbol": "N-NE",
+    "Nutrient_Unit": "Niacin Equivalents",
+    "Nutrient_Name_EN": "Total niacin equivalent",
+    "Nutrient_Name_FR": "Équivalent en niacine totale",
+    "Tagname": "NIAEQ",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 410,
+    "Nutrient_Symbol": "PANT",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Pantothenic acid",
+    "Nutrient_Name_FR": "Acide pantothénique",
+    "Tagname": "PANTAC",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 415,
+    "Nutrient_Symbol": "B6",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Vitamin B-6",
+    "Nutrient_Name_FR": "Vitamine B-6",
+    "Tagname": "VITB6A",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 416,
+    "Nutrient_Symbol": "BIOT",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Biotin",
+    "Nutrient_Name_FR": "Biotine",
+    "Tagname": "BIOT",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 417,
+    "Nutrient_Symbol": "FOLA",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Total folacin",
+    "Nutrient_Name_FR": "Folacine totale",
+    "Tagname": "FOL",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 418,
+    "Nutrient_Symbol": "B12",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Vitamin B-12",
+    "Nutrient_Name_FR": "Vitamine B-12",
+    "Tagname": "VITB12",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 421,
+    "Nutrient_Symbol": "CHOLN",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Choline, total",
+    "Nutrient_Name_FR": "Choline, totale",
+    "Tagname": "CHOLN",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 428,
+    "Nutrient_Symbol": "MK4",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Vitamin K (menaquinone-4)",
+    "Nutrient_Name_FR": "Vitamine K (ménaquinone-4)",
+    "Tagname": "MK4",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 429,
+    "Nutrient_Symbol": "VITK1D",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Vitamin K (dihydrophylloquinone)",
+    "Nutrient_Name_FR": "Vitamine K (dihydrophylloquinone)",
+    "Tagname": "VITK1D",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 430,
+    "Nutrient_Symbol": "VITK",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Vitamin K (phylloquinone)",
+    "Nutrient_Name_FR": "Vitamine K (phylloquinone)",
+    "Tagname": "VITK1",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 431,
+    "Nutrient_Symbol": "FOAC",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Folic acid",
+    "Nutrient_Name_FR": "Acide folique",
+    "Tagname": "FOLAC",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 432,
+    "Nutrient_Symbol": "FOLN",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Naturally occurring folate",
+    "Nutrient_Name_FR": "Folates présents naturellement",
+    "Tagname": "FOLFD",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 435,
+    "Nutrient_Symbol": "DFE",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Dietary folate equivalents",
+    "Nutrient_Name_FR": "Équivalents de folate alimentaire (ÉFA)",
+    "Tagname": "FOLDFE",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 454,
+    "Nutrient_Symbol": "BETN",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Betaine",
+    "Nutrient_Name_FR": "Bétaïne",
+    "Tagname": "BETN",
+    "Nutrient_Decimals": 1
+  },
+  {
+    "Nutrient_Code": 501,
+    "Nutrient_Symbol": "TRP",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Tryptophan",
+    "Nutrient_Name_FR": "Tryptophane",
+    "Tagname": "TRP",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 502,
+    "Nutrient_Symbol": "THR",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Threonine",
+    "Nutrient_Name_FR": "Thréonine",
+    "Tagname": "THR",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 503,
+    "Nutrient_Symbol": "ISO",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Isoleucine",
+    "Nutrient_Name_FR": "Isoleucine",
+    "Tagname": "ILE",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 504,
+    "Nutrient_Symbol": "LEU",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Leucine",
+    "Nutrient_Name_FR": "Leucine",
+    "Tagname": "LEU",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 505,
+    "Nutrient_Symbol": "LYS",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Lysine",
+    "Nutrient_Name_FR": "Lysine",
+    "Tagname": "LYS",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 506,
+    "Nutrient_Symbol": "MET",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Methionine",
+    "Nutrient_Name_FR": "Méthionine",
+    "Tagname": "MET",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 507,
+    "Nutrient_Symbol": "CYS",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Cystine",
+    "Nutrient_Name_FR": "Cystine",
+    "Tagname": "CYS",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 508,
+    "Nutrient_Symbol": "PHE",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Phenylalanine",
+    "Nutrient_Name_FR": "Phénylalanine",
+    "Tagname": "PHE",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 509,
+    "Nutrient_Symbol": "TYR",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Tyrosine",
+    "Nutrient_Name_FR": "Tyrosine",
+    "Tagname": "TYR",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 510,
+    "Nutrient_Symbol": "VAL",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Valine",
+    "Nutrient_Name_FR": "Valine",
+    "Tagname": "VAL",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 511,
+    "Nutrient_Symbol": "ARG",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Arginine",
+    "Nutrient_Name_FR": "Arginine",
+    "Tagname": "ARG",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 512,
+    "Nutrient_Symbol": "HIS",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Histidine",
+    "Nutrient_Name_FR": "Histidine",
+    "Tagname": "HIS",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 513,
+    "Nutrient_Symbol": "ALA",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Alanine",
+    "Nutrient_Name_FR": "Alanine",
+    "Tagname": "ALA",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 514,
+    "Nutrient_Symbol": "ASP",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Aspartic acid",
+    "Nutrient_Name_FR": "Acide aspartique",
+    "Tagname": "ASP",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 515,
+    "Nutrient_Symbol": "GLU",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Glutamic acid",
+    "Nutrient_Name_FR": "Acide glutamique",
+    "Tagname": "GLU",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 516,
+    "Nutrient_Symbol": "GLY",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Glycine",
+    "Nutrient_Name_FR": "Glycine",
+    "Tagname": "GLY",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 517,
+    "Nutrient_Symbol": "PRO",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Proline",
+    "Nutrient_Name_FR": "Proline",
+    "Tagname": "PRO",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 518,
+    "Nutrient_Symbol": "SER",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Serine",
+    "Nutrient_Name_FR": "Sérine",
+    "Tagname": "SER",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 521,
+    "Nutrient_Symbol": "HYP",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Hydroxyproline",
+    "Nutrient_Name_FR": "Hydroxyproline",
+    "Tagname": "HYP",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 550,
+    "Nutrient_Symbol": "ASPA",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Aspartame",
+    "Nutrient_Name_FR": "Aspartame",
+    "Tagname": "ASPM",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 573,
+    "Nutrient_Symbol": "ATMG-A",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Alpha-tocopherol, added",
+    "Nutrient_Name_FR": "Alpha-tocophérol, ajouté",
+    "Tagname": "",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 578,
+    "Nutrient_Symbol": "B12-A",
+    "Nutrient_Unit": "Microgram",
+    "Nutrient_Name_EN": "Vitamin B-12, added",
+    "Nutrient_Name_FR": "Vitamine B-12, ajoutée",
+    "Tagname": "",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 601,
+    "Nutrient_Symbol": "CHOL",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Cholesterol",
+    "Nutrient_Name_FR": "Cholesterol",
+    "Tagname": "CHOLE",
+    "Nutrient_Decimals": 2
+  },
+  {
+    "Nutrient_Code": 605,
+    "Nutrient_Symbol": "TRFA",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, trans, total",
+    "Nutrient_Name_FR": "Acides gras trans totaux",
+    "Tagname": "FATRN",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 606,
+    "Nutrient_Symbol": "TSAT",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, total",
+    "Nutrient_Name_FR": "Acides gras saturés totaux",
+    "Tagname": "FASAT",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 607,
+    "Nutrient_Symbol": "4:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 4:0, butanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 4:0, butanoïque",
+    "Tagname": "F4D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 608,
+    "Nutrient_Symbol": "6:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 6:0, hexanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 6:0, hexanoïque",
+    "Tagname": "F6D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 609,
+    "Nutrient_Symbol": "8:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 8:0, octanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 8:0, octanoïque",
+    "Tagname": "F8D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 610,
+    "Nutrient_Symbol": "10:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 10:0, decanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 10:0, décanoïque",
+    "Tagname": "F10D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 611,
+    "Nutrient_Symbol": "12:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 12:0, dodecanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 12:0, dodécanoïque",
+    "Tagname": "F12D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 612,
+    "Nutrient_Symbol": "14:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 14:0, tetradecanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 14:0, tétradécanoïque",
+    "Tagname": "F14D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 613,
+    "Nutrient_Symbol": "16:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 16:0, hexadecanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 16:0, hexadécanoïque",
+    "Tagname": "F16D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 614,
+    "Nutrient_Symbol": "18:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 18:0, octadecanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 18:0,  octadécanoïque",
+    "Tagname": "F18D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 615,
+    "Nutrient_Symbol": "20:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 20:0, eicosanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 20:0, eïcosanoïque",
+    "Tagname": "F20D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 617,
+    "Nutrient_Symbol": "18:1undiff",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1undifferentiated, octadecenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 18:1non différencié, octadécénoïque",
+    "Tagname": "F18D1",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 618,
+    "Nutrient_Symbol": "18:2undiff",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:2undifferentiated, linoleic, octadecadienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:2non différencié,  linoléique, octadécadiénoïque",
+    "Tagname": "F18D2",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 619,
+    "Nutrient_Symbol": "18:3undiff",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:3undifferentiated, linolenic, octadecatrienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:3non différencié, linolénique, octadécatriénoïque",
+    "Tagname": "F18D3",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 620,
+    "Nutrient_Symbol": "20:4undiff",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 20:4, eicosatetraenoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 20:4, eïcosatétraénoïque",
+    "Tagname": "F20D4",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 621,
+    "Nutrient_Symbol": "22:6n-3DHA",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 22:6 n-3, docosahexaenoic (DHA)",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés,  22:6 n-3, docosahexaénoïque (DHA)",
+    "Tagname": "F22D6N3",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 624,
+    "Nutrient_Symbol": "22:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 22:0, docosanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 22:0, docosanoïque",
+    "Tagname": "F22D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 625,
+    "Nutrient_Symbol": "14:01",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 14:1, tetradecenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 14:1, tétradécénoïque",
+    "Tagname": "F14D1",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 626,
+    "Nutrient_Symbol": "16:1undiff",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 16:1undifferentiated, hexadecenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 16:1non différencié, hexadécénoïque",
+    "Tagname": "F16D1",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 627,
+    "Nutrient_Symbol": "18:04",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:4, octadecatetraenoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:4, octadécatétraénoïque",
+    "Tagname": "F18D4",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 628,
+    "Nutrient_Symbol": "20:01",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 20:1, eicosenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 20:1, eïcosénoïque",
+    "Tagname": "F20D1",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 629,
+    "Nutrient_Symbol": "20:5n-3EPA",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 20:5 n-3, eicosapentaenoic (EPA)",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 20:5 n-3, eïcosapentaénoïque (EPA)",
+    "Tagname": "F20D5N3",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 630,
+    "Nutrient_Symbol": "22:1undiff",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 22:1undifferentiated, docosenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 22:1non différencié, docosénoïque",
+    "Tagname": "F22D1",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 631,
+    "Nutrient_Symbol": "22:5n-3DPA",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 22:5 n-3, docosapentaenoic (DPA)",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 22:5 n-3, docosapentaénoïque (DPA)",
+    "Tagname": "F22D5N3",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 636,
+    "Nutrient_Symbol": "TPST",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Total plant sterol",
+    "Nutrient_Name_FR": "Stérols végétaux totaux",
+    "Tagname": "PHYSTR",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 638,
+    "Nutrient_Symbol": "STIG",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Stigmasterol",
+    "Nutrient_Name_FR": "Stigmastérol",
+    "Tagname": "STID7",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 639,
+    "Nutrient_Symbol": "CAMSTR",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Campesterol",
+    "Nutrient_Name_FR": "Campestérol",
+    "Tagname": "CAMD5",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 641,
+    "Nutrient_Symbol": "SITSTR",
+    "Nutrient_Unit": "Milligram",
+    "Nutrient_Name_EN": "Beta-sitosterol",
+    "Nutrient_Name_FR": "Béta-sitostérol",
+    "Tagname": "SITSTR",
+    "Nutrient_Decimals": 0
+  },
+  {
+    "Nutrient_Code": 645,
+    "Nutrient_Symbol": "MUFA",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, total",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés totaux",
+    "Tagname": "FAMS",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 646,
+    "Nutrient_Symbol": "PUFA",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, total",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés totaux",
+    "Tagname": "FAPU",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 652,
+    "Nutrient_Symbol": "15:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 15:0, pentadecanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 15:0, pentadécanoïque",
+    "Tagname": "F15D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 653,
+    "Nutrient_Symbol": "17:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 17:0, heptadecanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 17:0, heptadécanoïque",
+    "Tagname": "F17D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 654,
+    "Nutrient_Symbol": "24:00:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 24:0, tetracosanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 24:0, tétrasanoïque",
+    "Tagname": "F24D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 662,
+    "Nutrient_Symbol": "16:1t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 16:1t, hexadecenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 16:1t, hexadécénoïque",
+    "Tagname": "F16D1T",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 663,
+    "Nutrient_Symbol": "18:1t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1t, octadecenoic",
+    "Nutrient_Name_FR": "Acide gras monoinsaturés, 18:1t, octadécénoïque",
+    "Tagname": "F18D1T",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 664,
+    "Nutrient_Symbol": "22:1t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 22:1t, docosenoic",
+    "Nutrient_Name_FR": "Acide gras monoinsaturés, 22:1t, docosénoïque",
+    "Tagname": "F22D1T",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 665,
+    "Nutrient_Symbol": "18:2t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:2t not further defined, linoleic, octadecadienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:2t non défini, linoléique, octadécadiénoïque",
+    "Tagname": "F18D2T",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 666,
+    "Nutrient_Symbol": "18:2i",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:2i, linoleic, octadecadienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:2i, linoléique, octadécadiénoïque",
+    "Tagname": "F18D2I",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 669,
+    "Nutrient_Symbol": "18:2t,t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:2t,t , octadecadienenoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:2t,t , octadecadiénoïque",
+    "Tagname": "F18D2TT",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 670,
+    "Nutrient_Symbol": "18:2cla",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, conjugated, 18:2 cla, linoleic, octadecadienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés conjugués, 18:2 cla, linoléique, octadécadiénoïque",
+    "Tagname": "F18D2CLA",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 671,
+    "Nutrient_Symbol": "24:1c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 24:1c, tetracosenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 24:1c, tétracosénoïque",
+    "Tagname": "F24D1C",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 672,
+    "Nutrient_Symbol": "20:2cc",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 20:2 c,c  eicosadienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 20:2 c,c  eïcosadiénoïque",
+    "Tagname": "F20D2CN6",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 673,
+    "Nutrient_Symbol": "16:1c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 16:1c, hexadecenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 16:1c, hexadécénoïque",
+    "Tagname": "F16D1C",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 674,
+    "Nutrient_Symbol": "18:1c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1c, octadecenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 18:1c, octadécénoïque",
+    "Tagname": "F18D1C",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 675,
+    "Nutrient_Symbol": "18:2ccn-6",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:2 c,c n-6,  linoleic, octadecadienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:2 c,c n-6, linoléique, octadécadiénoïque",
+    "Tagname": "F18D2CN6",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 676,
+    "Nutrient_Symbol": "22:1c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 22:1c, docosenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 22:1c, docosénoïque",
+    "Tagname": "F22D1C",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 685,
+    "Nutrient_Symbol": "18:3cccn-6",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:3 c,c,c n-6, g-linolenic, octadecatrienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:3 c,c,c n-6, g-linolénique, octadécatriénoïque",
+    "Tagname": "F18D3CN6",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 687,
+    "Nutrient_Symbol": "17:01",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 17:1, heptadecenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 17:1, heptadécénoïque",
+    "Tagname": "F17D1",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 689,
+    "Nutrient_Symbol": "20:3undiff",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 20:3, eicosatrienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 20:3, eïcosatriénoïque",
+    "Tagname": "F20D3",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 693,
+    "Nutrient_Symbol": "TRMO",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, total trans-monoenoic",
+    "Nutrient_Name_FR": "Acides gras trans monoénoïques totaux",
+    "Tagname": "FATRNM",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 695,
+    "Nutrient_Symbol": "TRPO",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, total trans-polyenoic",
+    "Nutrient_Name_FR": "Acides gras trans polyénoïques totaux",
+    "Tagname": "FATRNP",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 696,
+    "Nutrient_Symbol": "13:00",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, saturated, 13:0 tridecanoic",
+    "Nutrient_Name_FR": "Acides gras saturés, 13:0, tridécanoïque",
+    "Tagname": "F13D0",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 697,
+    "Nutrient_Symbol": "15:01",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 15:1, pentadecenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 15:1, pentadécénoïque",
+    "Tagname": "F15D1",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 851,
+    "Nutrient_Symbol": "18:3cccn-3",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:3 c,c,c n-3  linolenic, octadecatrienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:3 c,c,c  n-3, linolénique, octadécatriénoïque",
+    "Tagname": "F18D3CN3",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 852,
+    "Nutrient_Symbol": "20:3n-3",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 20:3 n-3 eicosatrienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 20:3 n-3",
+    "Tagname": "F20D3N3",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 853,
+    "Nutrient_Symbol": "20:3n-6",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 20:3 n-6, eicosatrienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 20:3 n-6, eïcosatriénoïque",
+    "Tagname": "F20D3N6",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 855,
+    "Nutrient_Symbol": "20:4n-6",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 20:4 n-6, arachidonic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 20:4 n-6, arachidonique",
+    "Tagname": "F20D4N6",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 856,
+    "Nutrient_Symbol": "18:3i",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:3i, linolenic, octadecatrienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:3i, linolénique, octadécatriénoïque",
+    "Tagname": "F18D3I",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 857,
+    "Nutrient_Symbol": "21:05",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 21:5",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés,  21:5",
+    "Tagname": "F21D5",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 858,
+    "Nutrient_Symbol": "22:4n-6",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 22:4 n-6, docosatetraenoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 22:4n-6, docosatétraénoïque",
+    "Tagname": "F22D4",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 859,
+    "Nutrient_Symbol": "24:1undiff",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated,  24:1undifferentiated, tetracosenoic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 24:1non différencié, tétracosénoïque",
+    "Tagname": "F24D1",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 860,
+    "Nutrient_Symbol": "12:01",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 12:1, lauroleic",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 12:1, lauroleic",
+    "Tagname": "F12D1",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 861,
+    "Nutrient_Symbol": "22:03",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 22:3,",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 22:3",
+    "Tagname": "F22D3",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 862,
+    "Nutrient_Symbol": "22:02",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 22:2, docosadienoic",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 22:2, docosadiénoïque",
+    "Tagname": "F22D2",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 884,
+    "Nutrient_Symbol": "18:1 10c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 10c",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 18:1 10c",
+    "Tagname": "F18D1CN8",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 885,
+    "Nutrient_Symbol": "18:1 11c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 11c",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 18:1 11c",
+    "Tagname": "F18D1CN7",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 886,
+    "Nutrient_Symbol": "18:1 12c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 12c",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 18:1 12c",
+    "Tagname": "F18D1CN6",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 888,
+    "Nutrient_Symbol": "18:1 13c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 13c",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 18:1 13c",
+    "Tagname": "F18D1CN5",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 891,
+    "Nutrient_Symbol": "18:1 14c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 14c",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 18:1 14c",
+    "Tagname": "F18D1CN4",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 895,
+    "Nutrient_Symbol": "18:1 15c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 15c",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 18:1 15c",
+    "Tagname": "F18D1CN3",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 896,
+    "Nutrient_Symbol": "18:1 16c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 16c",
+    "Nutrient_Name_FR": "Acides gras monoinsaturés, 18:1 16c",
+    "Tagname": "F18D1CN2",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 897,
+    "Nutrient_Symbol": "18:1 11t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 11t",
+    "Nutrient_Name_FR": "Acide gras monoinsaturés, 18:1 11t",
+    "Tagname": "F18D1TN7",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 898,
+    "Nutrient_Symbol": "18:1 4t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 4t",
+    "Nutrient_Name_FR": "Acide gras monoinsaturés, 18:1 4t",
+    "Tagname": "F18D1TN14",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 899,
+    "Nutrient_Symbol": "18:1 5t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 5t",
+    "Nutrient_Name_FR": "Acide gras monoinsaturés, 18:1 5t",
+    "Tagname": "F18D1TN13",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 904,
+    "Nutrient_Symbol": "18:1 6t-8t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 6t-8t",
+    "Nutrient_Name_FR": "Acide gras monoinsaturés, 18:1 6-8t",
+    "Tagname": "",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 905,
+    "Nutrient_Symbol": "18:1 10t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 10t",
+    "Nutrient_Name_FR": "Acide gras monoinsaturés, 18:1 10t",
+    "Tagname": "F18D1TN8",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 906,
+    "Nutrient_Symbol": "18:1 12t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 12t",
+    "Nutrient_Name_FR": "Acide gras monoinsaturés, 18:1 12t",
+    "Tagname": "F18D1TN6",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 907,
+    "Nutrient_Symbol": "18:1 13t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 13t + 14t + 6c-8c",
+    "Nutrient_Name_FR": "Acide gras monoinsaturés, 18:1 13t + 14t + 6c-8c",
+    "Tagname": "",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 908,
+    "Nutrient_Symbol": "18:1 16t",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 18:1 16t",
+    "Nutrient_Name_FR": "Acide gras monoinsaturés, 18:1 16t",
+    "Tagname": "F18D1TN2",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 909,
+    "Nutrient_Symbol": "20:1 5c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, monounsaturated, 20:1 5c",
+    "Nutrient_Name_FR": "Acide gras monoinsaturés, 20:1 5c",
+    "Tagname": "F20D1CN15",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 910,
+    "Nutrient_Symbol": "18:2 9c13c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:2 9c,13c",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:2 9c,13c",
+    "Tagname": "",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 911,
+    "Nutrient_Symbol": "18:2 9c14c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:2 9c,14c",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:2 9c,14c",
+    "Tagname": "",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 912,
+    "Nutrient_Symbol": "18:2 9c15c",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 18:2 9c,15c",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 18:2 9c,15c",
+    "Tagname": "F18D2CN3",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 913,
+    "Nutrient_Symbol": "22:5n-6",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fatty acids, polyunsaturated, 22:5n-6",
+    "Nutrient_Name_FR": "Acides gras polyinsaturés, 22:5n-6",
+    "Tagname": "F22D5N6",
+    "Nutrient_Decimals": 3
+  },
+  {
+    "Nutrient_Code": 1001,
+    "Nutrient_Symbol": "INUL",
+    "Nutrient_Unit": "Gram",
+    "Nutrient_Name_EN": "Fructans (inulin)",
+    "Nutrient_Name_FR": "Fructanes (inuline)",
+    "Tagname": "INLN",
+    "Nutrient_Decimals": 1
+  }
+]
