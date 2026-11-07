@@ -193,6 +193,8 @@ const Foodname = (function(){
 		},
 		async submit(e){		
 			
+			var foodIds = Main.queryAll(document,'.food_id');		
+			
 			if(!this.validate(foodIds))
 				return false;
 										
@@ -201,8 +203,7 @@ const Foodname = (function(){
 			const jsonparts = {};
 			const range = 200;
 			
-			try {
-				var foodIds = Main.queryAll(document,'.food_id');		
+			try {			
 								
 			const content = Main.query(document,'.content');
 			const foodMain = Main.query(document,'.food_main');
