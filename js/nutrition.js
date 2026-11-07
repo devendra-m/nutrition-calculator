@@ -5,8 +5,10 @@ const Tooltip=(function(){
 		
 			delay(x, y, l){				
 				const step = 10;
-				if(((l - step) <= y ) && ( y <= l))
+				if(((l - step) <= y ) && ( y <= l)){
+					setTimeout(Tooltip.hide,2000);	
 					return false;
+				}
 				
 				if(y > l)
 					y = y - step;
@@ -49,14 +51,12 @@ const Tooltip=(function(){
 					Tooltip.delay(0,y,top);									
 					
 					Main.subElem(document.body,[{'e':text}]);		
-					Main.subElem(text,[{'e':intext}]);		
-					
-					setTimeout(Tooltip.hide,2000,text,elem,color);					
+					Main.subElem(text,[{'e':intext}]);												
 			},		
 			
-			hide(text,elem,color){
-				text.remove();
-				elem.style.border = color;
+			hide(){
+				const text = Main.query(document,'.tooltip')
+				text.remove();				
 			}
 	}	
 })();
