@@ -117,7 +117,7 @@ const Foodname = (function(){
 				const regex = new RegExp(".*"+event.target.value, "i");
 				
 				if(event.target.value.length > 0 && item.Food_Description_EN.match(regex)){
-					//const item = JSON.parse(match[0]);
+					
 					const li = Main.newElem('li',{'class':'item'});	
 					const labelName = Main.newElem('span',{'class':'label'});
 					labelName.id = item.Food_Code;
@@ -128,7 +128,7 @@ const Foodname = (function(){
 					Main.subElem(ul,[{'e':li,'>':[{'e':labelName}]}]);		
 				}
 			}
-			//}
+			
 			Main.subElem(event.target.parentElement,[{'e':ul}]);
 		},
 		loadNames(){
@@ -138,9 +138,9 @@ const Foodname = (function(){
 			
 			for(const name of names){
 				name.addEventListener('input', (event) => {
-						if (event.defaultPrevented) {
+					  if (event.defaultPrevented) {
 							return;
-						}
+					  }
 					  
 					  event.target.setAttribute('autocomplete','off');
 					  
@@ -148,13 +148,9 @@ const Foodname = (function(){
 					  foodId.value = '';										
 					  					  
 					  if(window.nameTimeout)
-						clearTimeout(window.nameTimeout);
+						clearTimeout(window.nameTimeout);					  
 					  
-					  //console.log('test'); 
-					  window.nameTimeout = setTimeout(Foodname.loadName, 300,event,foodName);
-					 
-					  // Update the reference for the next key press					 
-																	
+					  window.nameTimeout = setTimeout(Foodname.loadName, 300,event,foodName);					 					  															
 					});	
 				}
 		},
