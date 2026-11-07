@@ -5,7 +5,7 @@ const Tooltip=(function(){
 		
 			delay(x, y, l){				
 				const step = 10;
-				if(((l - step) < y ) && ( y < (l + step)))
+				if(((l - step) <= y ) && ( y <= l))
 					return false;
 				
 				if(y > l)
