@@ -328,8 +328,7 @@ const Foodname = (function(){
 			  }
 			  finally{
 				Loader.clearLoader();
-			  }
-				//Loader.clearLoader();					
+			  }				
 		}
 	}
 })();
@@ -348,7 +347,6 @@ const Loader = (function(){
 			
 			loaderDiv.style.top = top + 'px';			
 			
-
 		},
 		clearLoader(){
 			const loader = Main.query(document,'.loader');
