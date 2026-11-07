@@ -64,7 +64,6 @@ const Foodname = (function(){
 	const foodUrl = '/data/Food_Name.json';
 	return {
 		async load(){
-
 			
 			const response = await fetch(foodUrl);
 
