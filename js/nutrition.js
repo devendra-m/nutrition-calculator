@@ -170,7 +170,7 @@ const Foodname = (function(){
 			const nutritionMain = Main.query(document,'.'+main);
 			nutritionMain.remove();
 		},		
-		validate(){
+		validate(foodIds){
 			const inputs = Main.queryAll(document,'.content form .name,.content form .weightGram');
 			
 			for(const id of foodIds){				
