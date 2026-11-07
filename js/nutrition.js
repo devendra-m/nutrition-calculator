@@ -143,6 +143,9 @@ const Foodname = (function(){
 						}
 					  
 					  event.target.setAttribute('autocomplete','off');
+					  
+					  const foodId = Main.query(event.target.closest('li'),'.food_id'));
+					  foodId.value = '';										
 					  					  
 					  if(window.nameTimeout)
 						clearTimeout(window.nameTimeout);
@@ -175,6 +178,14 @@ const Foodname = (function(){
 		validate(){
 			const inputs = Main.queryAll(document,'.content form .name,.content form .weightGram');
 			
+			for(const id of foodIds){				
+				const input = Main.query(id.closest('li'),'.name');
+				if(input.closest('ul').className != 'template'){									
+					if(id.value.length < 1)
+						input.value = '';
+				}
+			}	
+			
 			for(const input of inputs){
 				if(input.closest('ul').className != 'template'){
 					if(input.value.length < 1){
@@ -188,7 +199,7 @@ const Foodname = (function(){
 		},
 		async submit(e){		
 			
-			if(!this.validate())
+			if(!this.validate(foodIds))
 				return false;
 										
 			Loader.load(1);			
