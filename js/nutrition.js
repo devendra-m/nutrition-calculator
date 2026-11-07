@@ -143,7 +143,7 @@ const Foodname = (function(){
 					  
 					  event.target.setAttribute('autocomplete','off');
 					  
-					  const foodId = Main.query(event.target.closest('li'),'.food_id'));
+					  const foodId = Main.query(event.target.closest('li'),'.food_id');
 					  foodId.value = '';										
 					  					  
 					  if(window.nameTimeout)
