@@ -1,8 +1,7 @@
 window.promiseCache = null;
 window.lastKeyTime = 0;
 const Tooltip=(function(){
-	return {	
-		
+	return {			
 			delay(x, y, l){				
 				const step = 10;
 				if(((l - step) <= y ) && ( y <= l)){
