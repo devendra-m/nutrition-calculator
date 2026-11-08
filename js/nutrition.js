@@ -139,6 +139,7 @@ const Foodname = (function(){
 					  if (event.defaultPrevented) {
 							return;
 					  }
+					  					 
 					  
 					  event.target.setAttribute('autocomplete','off');
 					  
@@ -150,7 +151,66 @@ const Foodname = (function(){
 					  
 					  window.nameTimeout = setTimeout(Foodname.loadName, 300,event,foodName);					 					  															
 					});	
+					
+				name.addEventListener('keydown',(event) => {
+					Foodname.keyDown(event);
+				});
+				
 				}
+		},
+		keyDown(event){
+				    const popup = Main.query(document,'.food ul.items');
+				   
+					if(event.keyCode == 38 || event.keyCode == 40 || event.keyCode == 13)
+						event.preventDefault();
+						
+					const selectedLi = Main.query(document,'.food ul.items li.selected');
+					if(event.keyCode == 38){
+						if(selectedLi){
+							const li = selectedLi.previousElementSibling;	
+							
+							if(li){							
+								li.classList.add('selected');
+								selectedLi.classList.remove('selected');
+							}
+							
+							popup.scroll(0,popup.scrollTop - selectedLi.offsetHeight);
+						}
+						else{
+							const li = Main.query(document,'.food ul.items li');	
+							li.classList.add('selected');		
+						}
+					}
+					if(event.keyCode == 40){
+						
+						if(selectedLi){
+							const li = selectedLi.nextElementSibling;	
+													
+							if(li){
+								li.classList.add('selected');
+								selectedLi.classList.remove('selected');
+							}
+							
+							console.log(selectedLi.style.height);
+							popup.scroll(0,popup.scrollTop + selectedLi.offsetHeight);
+						}
+						else{
+							const li = Main.query(document,'.food ul.items li');						
+							
+							li.classList.add('selected');
+						}
+					}
+					
+					if(event.keyCode == '13' && selectedLi){
+						const rowLi = selectedLi.closest('li.row');
+						const name = Main.query(rowLi,'.name');
+						const names = Main.query(rowLi,'.items');
+						const label = Main.query(rowLi,'li.selected .label');
+						Foodname.nameSelected(label,name,names);
+					}
+					else if(event.keyCode == '13'){						
+						Foodname.submit();
+					}
 		},
 		nameSelected(event, name, names){
 			const foodId = Main.query(name.closest('li.row'),'[name="id[]"]');
