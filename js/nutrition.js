@@ -127,7 +127,10 @@ const Foodname = (function(){
 				}
 			}
 			
-			Main.subElem(event.target.parentElement,[{'e':ul}]);
+			const nameList = Main.query(ul,'li');
+			
+			if(nameList)		
+				Main.subElem(event.target.parentElement,[{'e':ul}]);
 		},
 		loadNames(){
 			const names = Main.queryAll(document,'.food .name');
