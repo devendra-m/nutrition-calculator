@@ -162,7 +162,11 @@ const Foodname = (function(){
 				}
 		},
 		keyDown(event){
-				    const popup = Main.query(document,'.food ul.items');				    
+				    const popup = Main.query(document,'.food ul.items');	
+				    
+				    
+				    console.log(popup.scrollTop); 
+				   			    
 				    const list = Main.queryAll(document,'.food ul.items li');
 				    
 				    if(list.length < 1)
@@ -199,7 +203,10 @@ const Foodname = (function(){
 								selectedLi.classList.remove('selected');
 							}							
 							
-							popup.scroll(0,popup.scrollTop + selectedLi.offsetHeight);
+							const scrollHeight = popup.scrollTop + selectedLi.offsetHeight;		
+							
+							if(popup.scrollHeight > scrollHeight )			
+								popup.scroll(0,popup.scrollTop + selectedLi.offsetHeight);
 						}
 						else{
 							const li = Main.query(document,'.food ul.items li');						
