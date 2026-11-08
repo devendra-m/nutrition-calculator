@@ -189,9 +189,8 @@ const Foodname = (function(){
 							if(li){
 								li.classList.add('selected');
 								selectedLi.classList.remove('selected');
-							}
+							}							
 							
-							console.log(selectedLi.style.height);
 							popup.scroll(0,popup.scrollTop + selectedLi.offsetHeight);
 						}
 						else{
