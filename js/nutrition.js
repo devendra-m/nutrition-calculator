@@ -121,7 +121,7 @@ const Foodname = (function(){
 					labelName.id = item.Food_Code;
 					labelName.innerHTML = item.Food_Description_EN;
 					
-					labelName.addEventListener('click',(e) => Foodname.nameSelected(e,event.target,ul));
+					labelName.addEventListener('click',(e) => Foodname.nameSelected(e.target,event.target,ul));
 									
 					Main.subElem(ul,[{'e':li,'>':[{'e':labelName}]}]);		
 				}
@@ -212,11 +212,11 @@ const Foodname = (function(){
 						Foodname.submit();
 					}
 		},
-		nameSelected(event, name, names){
+		nameSelected(elem, name, names){
 			const foodId = Main.query(name.closest('li.row'),'[name="id[]"]');
 			
-			name.value = event.target.innerHTML;
-			foodId.value = event.target.id;		
+			name.value = elem.innerHTML;
+			foodId.value = elem.id;		
 			
 			names.remove();	
 		},
