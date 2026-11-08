@@ -186,7 +186,13 @@ const Foodname = (function(){
 								selectedLi.classList.remove('selected');
 							}
 							
-							popup.scroll(0,popup.scrollTop - selectedLi.offsetHeight);
+							const initialHeight = popup.scrollTop - selectedLi.offsetHeight;
+							
+							const total = 0;
+							const adjTotal = Foodname.adjacentWidth(total,selectedLi,'up');		
+							
+							if(0 < initialHeight && popup.offsetHeight < adjTotal)			
+								popup.scroll(0,popup.scrollTop - selectedLi.offsetHeight);
 						}
 						else{
 							const li = Main.query(document,'.food ul.items li');	
@@ -205,7 +211,11 @@ const Foodname = (function(){
 							
 							const scrollHeight = popup.scrollTop + selectedLi.offsetHeight;		
 							
-							if(popup.scrollHeight > scrollHeight )			
+							const total = 0;
+							
+							const adjTotal = Foodname.adjacentWidth(total,selectedLi,'down');						
+							
+							if(popup.scrollHeight > scrollHeight && popup.offsetHeight - selectedLi.offsetHeight < adjTotal)			
 								popup.scroll(0,popup.scrollTop + selectedLi.offsetHeight);
 						}
 						else{
@@ -225,6 +235,25 @@ const Foodname = (function(){
 					else if(event.keyCode == '13'){						
 						Foodname.submit();
 					}
+		},
+		adjacentWidth(total, elem, type){
+			
+			if(type == 'down'){			
+				if(elem.previousElementSibling){
+					total += elem.previousElementSibling.offsetHeight;
+					return Foodname.adjacentWidth(total,elem.previousElementSibling,type);								
+				}
+			}
+			else if(type == 'up'){
+				if(elem.nextElementSibling){
+					total += elem.nextElementSibling.offsetHeight;
+					return Foodname.adjacentWidth(total,elem.nextElementSibling,type);								
+				}
+			}
+			
+			return total + elem.offsetHeight;
+			
+			
 		},
 		nameSelected(elem, name, names){
 			const foodId = Main.query(name.closest('li.row'),'[name="id[]"]');
