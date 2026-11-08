@@ -164,17 +164,8 @@ const Foodname = (function(){
 		keyDown(event){
 				    const popup = Main.query(document,'.food ul.items');	
 				    
-				    
-				    console.log(popup.scrollTop); 
-				   			    
-				    const list = Main.queryAll(document,'.food ul.items li');
-				    
-				    if(list.length < 1)
-						return false;
-				   
 					if(event.keyCode == 38 || event.keyCode == 40 || event.keyCode == 13)
-						event.preventDefault();						
-					
+						event.preventDefault();											
 						
 					const selectedLi = Main.query(document,'.food ul.items li.selected');
 					if(event.keyCode == 38){
