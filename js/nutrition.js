@@ -189,7 +189,7 @@ const Foodname = (function(){
 							const adjTotal = Foodname.adjacentWidth(total,selectedLi,'up');		
 							const offsetTop = adjTotal - popup.scrollTop;
 							
-							if(0 < initialHeight && 0 > offsetTop);//popup.offsetHeight < adjTotal)			
+							if(0 < initialHeight && 0 > offsetTop)//popup.offsetHeight < adjTotal)			
 								popup.scroll(0,popup.scrollTop - selectedLi.offsetHeight);
 						}
 						else{
@@ -215,7 +215,7 @@ const Foodname = (function(){
 							const offsetTop = adjTotal - (popup.scrollHeight - popup.scrollTop - popup.offsetHeight);							
 												
 							
-							if(popup.scrollHeight > scrollHeight && 0 > offsetTop);//popup.offsetHeight - selectedLi.offsetHeight < adjTotal)			
+							if(popup.scrollHeight > scrollHeight && 0 > offsetTop)//popup.offsetHeight - selectedLi.offsetHeight < adjTotal)			
 								popup.scroll(0,popup.scrollTop + selectedLi.offsetHeight);
 						}
 						else{
