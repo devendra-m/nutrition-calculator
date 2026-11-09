@@ -239,15 +239,15 @@ const Foodname = (function(){
 		adjacentWidth(total, elem, type){
 			
 			if(type == 'down'){			
-				if(elem.previousElementSibling){
-					total += elem.previousElementSibling.offsetHeight;
-					return Foodname.adjacentWidth(total,elem.previousElementSibling,type);								
-				}
-			}
-			else if(type == 'up'){
 				if(elem.nextElementSibling){
 					total += elem.nextElementSibling.offsetHeight;
 					return Foodname.adjacentWidth(total,elem.nextElementSibling,type);								
+				}
+			}
+			else if(type == 'up'){
+				if(elem.previousElementSibling){
+					total += elem.previousElementSibling.offsetHeight;
+					return Foodname.adjacentWidth(total,elem.previousElementSibling,type);								
 				}
 			}
 			
