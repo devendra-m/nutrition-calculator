@@ -93,10 +93,11 @@ const Foodname = (function(){
 												
 					lastRow.after(li);
 					
-					Foodname.loadNames();
+					const names = Main.queryAll(ul,'.name');
+					Foodname.loadNames(names);
 				});				
-
-				this.loadNames();																														
+				const names = Main.queryAll(document,'.food .name');
+				this.loadNames(names);																														
 			}					
 		},
 		loadName(event,foodName){
@@ -132,8 +133,8 @@ const Foodname = (function(){
 			if(nameList)		
 				Main.subElem(event.target.parentElement,[{'e':ul}]);
 		},
-		loadNames(){
-			const names = Main.queryAll(document,'.food .name');
+		loadNames(names){
+			
 			
 			const foodName = window.promiseCache;
 			
@@ -187,7 +188,7 @@ const Foodname = (function(){
 							
 							const total = 0;
 							const adjTotal = Foodname.adjacentWidth(total,selectedLi,'up');		
-							const offsetTop = adjTotal - popup.scrollTop;
+							const offsetTop = adjTotal - popup.scrollTop ;
 							
 							if(0 < initialHeight && 0 > offsetTop)//popup.offsetHeight < adjTotal)			
 								popup.scroll(0,popup.scrollTop - selectedLi.offsetHeight);
